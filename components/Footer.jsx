@@ -25,12 +25,8 @@ const Footer = () => {
         <h3 className="text-xl font-bold text-white">Quick Links</h3>
         <ul className="space-y-2">
           {[
-            "Schedule a Consultation",
-            "Standard Service Terms & Agreements",
             "Privacy Policy",
-            "Cookies Policy",
             "Terms & Conditions",
-            "Sitemap",
           ].map((link, index) => (
             <li key={index}>
               <a

@@ -15,7 +15,7 @@ const ServicesSection = () => {
               (8-10 MIN)
             </p>
             <ul className="text-left text-md text-gray-300 space-y-3">
-              <li>✔️ A well-researched script that's 100% human-generated</li>
+              <li>✔️ A well-researched script that&apos;s 100% human-generated</li>
               <li>
                 ✔️ Sources provided, including articles, YouTube videos, and
                 more
