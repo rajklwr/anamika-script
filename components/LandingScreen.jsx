@@ -26,7 +26,7 @@ const LandingScreen = () => {
           Struggling to make your faceless YouTube channel stand out? We craft compelling, data-driven scripts designed to hook viewers, boost retention, and maximize monetization.
           <br></br>
           <br></br>
-          Whether you need engaging storytelling, viral trends, or AI-optimized content, we deliver scripts tailored for success. Let’s turn your channel into a revenue-generating machine!
+          Whether you need engaging storytelling, viral trends, or AI-optimized content, we deliver scripts tailored for success. Let&apos;s turn your channel into a revenue-generating machine!
         </p>
         <br></br>
         <div className="flex justify-center lg:justify-start">
