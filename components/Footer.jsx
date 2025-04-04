@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-[#121212] to-[#1e1e1e] text-gray-300 py-12 px-6 sm:px-12 md:px-16 lg:px-20 flex flex-col lg:flex-row items-start justify-between gap-12">
       {/* Profile Section */}
-      <div className="flex items-center space-x-4">
+      <div className="flex items-start space-x-4">
         <img
           src="/images/profile.png"
           alt="Profile"
           className="rounded-full shadow-lg"
-          style={{ width: "20px", height: "20px" }}
+          style={{ width: "30px", height: "30px", marginTop: "5px" }}
         />
         <div>
           <h3 className="text-xl font-bold text-white">Anamika Biswas</h3>

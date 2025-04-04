@@ -1,12 +1,17 @@
+"use client";
+import UnderlineHeader from "./UnderlineHeader";
+
 const PortfolioSection = () => {
-    return (
-      <div className="min-h-screen w-full bg-[#121212] text-white px-6 sm:px-12 md:px-16 lg:px-20 py-16">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-center mb-12">
+    return (<div className="min-h-screen w-full bg-[#121212] text-white px-6 sm:px-12 md:px-16 lg:px-20 py-16">
+        {/* <h2 className="text-4xl sm:text-5xl font-extrabold text-center mb-12">
           Portfolio & Samples
-        </h2>
+        </h2> */}
+        <UnderlineHeader title={"Portfolio & Samples"} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Sample 1 */}
-          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center">
+          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
+          onClick={() => window.location.href = "https://www.youtube.com/@elonmuskevolution/videos"}
+          >
             <img
               src="/images/sample-1.png"
               alt="ELON MUSK EVOLUTION"
@@ -16,7 +21,9 @@ const PortfolioSection = () => {
           </div>
   
           {/* Sample 2 */}
-          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center">
+          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
+          onClick={() => window.location.href = "https://www.youtube.com/@FormulaNewsToday"}
+          >
             <img
               src="/images/sample-2.png"
               alt="FORMULA NEWS TODAY"
@@ -26,7 +33,9 @@ const PortfolioSection = () => {
           </div>
   
           {/* Sample 3 */}
-          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center">
+          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
+          onClick={() => window.location.href = "https://www.youtube.com/@naturediscoveriesyt/videos"}
+          >
             <img
               src="/images/sample-3.png"
               alt="NATURE DISCOVERIES"
@@ -36,7 +45,9 @@ const PortfolioSection = () => {
           </div>
   
           {/* Sample 4 */}
-          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center">
+          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
+          onClick={() => window.location.href = "https://www.youtube.com/@UKRoyalVibes-v8c"}
+          >
             <img
               src="/images/sample-4.png"
               alt="UK ROYAL VIBES"
@@ -46,7 +57,9 @@ const PortfolioSection = () => {
           </div>
   
           {/* Sample 5 */}
-          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center">
+          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
+          onClick={() => window.location.href = "https://www.youtube.com/@hollywooduncoveredyt"}
+          >
             <img
               src="/images/sample-5.png"
               alt="HOLLYWOOD UNCOVERED"
@@ -56,7 +69,9 @@ const PortfolioSection = () => {
           </div>
   
           {/* Sample 6 */}
-          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center">
+          <div className="bg-[#1E1E1E] rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
+          onClick={() => window.location.href = "https://www.youtube.com/@nascarzone3646"}
+          >
             <img
               src="/images/sample-6.png"
               alt="NASCAR ZONE"

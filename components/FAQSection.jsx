@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import UnderlineHeader from "./UnderlineHeader";
 
 const FAQSection = () => {
   // Initialize state with all indices open
@@ -16,12 +17,13 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-[#121212] to-[#1e1e1e] text-white px-6 sm:px-12 md:px-16 lg:px-20 py-16 flex flex-col lg:flex-row items-start justify-between gap-12">
+    <div className="min-h-screen w-full bg-gradient-to-b from-[#121212] to-[#1e1e1e] text-white px-6 sm:px-12 md:px-16 lg:px-20 py-16 flex flex-col lg:flex-row items-start justify-between gap-8">
       {/* FAQ Content */}
       <div className="w-full lg:w-1/2 space-y-6">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-left mb-12">
+        {/* <h2 className="text-4xl sm:text-5xl font-extrabold text-left mb-12">
           Frequently Asked Questions
-        </h2>
+        </h2> */}
+        <UnderlineHeader title={"Frequently Asked Questions"} />
         {[
           {
             question: "How long does it take to receive my script?",
@@ -72,7 +74,7 @@ const FAQSection = () => {
       </div>
 
       {/* Image Section */}
-      <div className=" h-full flex justify-center items-stretch">
+      <div className=" h-full hidden lg:block mt-16 flex justify-center items-stretch">
         <img
           src="/images/faq-image.png"
           alt="Decorative FAQ illustration"
